@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    font-family:"Poppins",sans-serif;
+  }
+  .header{
+    height:55px;
+    width:100%;
+    background-color: rgb(137, 132, 174);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .logo{
+    display: flex;
+    flex-direction:row;
+    margin-left:100px;
+    gap:5px;
+    transition:0.3s all 0.1s;
+    cursor:pointer;
+  }
+  .logo:hover{
+    transform: scale(1.5) translateY(15px);
+  }
+  .text{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+  }
+  .list{
+    display: flex;
+    flex-direction:row; 
+    gap:10px;
+  
+  }
+  .class:hover{
+    background-color: rgb(34, 34, 193);
+    color:white;
+    border-radius:3px;
+  }
+  .search{
+    margin-right:100px;
+  }
+  button{
+    background-color: rgb(103, 103, 177);
+    height:28px;
+    width:75px;
+    color:white;
+    border-radius:5px;
+  }
+  input{
+    padding:10px;
+    height:28px;
+    border-radius:3px;
+  }
+  .container{
+    margin-top:20px;
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+    background-color:aliceblue
+  }
+  .content1{
+    height:auto;
+    width:100%;
+   display:flex;
+   justify-content: space-evenly;
+   margin-left:25px;
+   margin-top:15px;
+   margin-right:35px;
+  
+  }
+  .news1{
+    border: 1px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    height:280px;
+    width:250px;
+    overflow: hidden;
+    box-shadow:1px 1px 20px rgb(89, 96, 144);
+    transition:0.3s all 0.1s;
+    cursor:pointer;
+  }
+  .news1:hover{
+    transform:scale(1.1);
+  }
+  .heading1{
+   font-size:13px;
+   font-family: sans-serif;
+   margin-left:7px;
+  }
+  
+  .info1{
+  font-size:11px;
+  color: rgb(26, 26, 51);
+  margin-left:7px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .footerBox{ 
+    border-radius:2px;
+    margin-top:30px;
+    display: flex;
+    background-color: rgb(5, 214, 233);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    height:35px;
+  }
+  
+  .footerBox p {
+    color: rgb(3, 10, 10);
+    font-size: 2rem;
+  }
+  .not{
+    text-decoration :line-through;
+  }
